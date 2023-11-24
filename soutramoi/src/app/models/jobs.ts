@@ -1,0 +1,6 @@
+export interface Jobs {
+  name:string
+  slug:string
+  active:number
+  parent_id?:number
+}
